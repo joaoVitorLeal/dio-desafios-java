@@ -15,7 +15,7 @@ public class ContaTerminal {
             System.out.println("Por favor, digite o seu nome");
             conta0.setNomeCliente(sc.nextLine());
             System.out.println("Por favor, Informe o seu saldo!");
-            conta0.setSaldo(Double.parseDouble(sc.nextLine()));
+            conta0.setSaldo(Double.parseDouble(sc.nextLine().replaceAll(",", ".")));
 
             System.out.println(conta0);
         } catch (Exception e) {
