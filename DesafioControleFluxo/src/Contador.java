@@ -9,16 +9,14 @@ public class Contador {
         int parametroDois = Integer.parseInt(terminal.nextLine());
 
         try {
-            //chamando o método contendo a lógica de contagem
             contar(parametroUm, parametroDois);
-
         }catch (ParametrosInvalidosException exception) {
             System.out.println(exception.getMessage());
         }
-
     }
+
     static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
-        if (parametroUm > parametroDois) {
+        if (parametroUm >= parametroDois) {
             throw new ParametrosInvalidosException( "O segundo parâmetro deve ser maior que o primeiro");
         }
         int contagem = parametroDois - parametroUm;
