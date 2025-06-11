@@ -3,6 +3,9 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 ContaBanco.iml
+../dio-desafios-java.iml
+../.idea/
+../.idea/**
 
 ### Eclipse ###
 .apt_generated
