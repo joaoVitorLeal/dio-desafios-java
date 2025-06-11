@@ -6,6 +6,7 @@ ContaBanco.iml
 ../dio-desafios-java.iml
 ../.idea/
 ../.idea/**
+../get-starter/
 
 ### Eclipse ###
 .apt_generated
