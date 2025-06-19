@@ -3,8 +3,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .mvn
+
 ### IntelliJ IDEA ###
-.idea/modules.xml
+.idea/modules.xmlg
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
