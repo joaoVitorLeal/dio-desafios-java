@@ -20,7 +20,7 @@ public abstract sealed class AccountImpl implements Account, Serializable
     private UUID id;
     protected Integer branch;
     protected Integer accountNumber;
-    protected BigDecimal balance;
+    protected BigDecimal balance = BigDecimal.ZERO;
     protected Client client;
 
     public AccountImpl() { }
